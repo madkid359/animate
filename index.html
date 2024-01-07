@@ -1,0 +1,82 @@
+
+          <html>
+            <body><html>
+  <head><title>animations</title>
+    <style>#an1{
+  background-color:#FFC482;
+  width:50px; height:50px;
+  animation: mover 5s infinite;
+    animation-timing-function:linear;
+  border:4px solid black;
+  position:relative;
+}
+@keyframes mover{
+  from{left:0px;}
+  to{left:200px;}
+}
+#an2{
+   background-color:#FFC482;
+  width:50px; height:50px;
+  animation: mover 5s infinite;
+    animation-timing-function:ease;
+  border:4px solid black;
+  position:relative;
+}
+@keyframes mover{
+  from{left:0px;}
+  to{left:400px;}
+}
+#an3{
+    background-color:#FFC482;
+  width:50px; height:50px;
+  animation: mover 5s infinite;
+    animation-timing-function:ease-in;
+  border:4px solid black;
+  position:relative;
+}
+#an4{
+    background-color:#FFC482;
+  width:50px; height:50px;
+  animation: mover 5s infinite;
+    animation-timing-function:ease-out;
+  border:4px solid black;
+  position:relative;
+}
+#an5{
+    background-color:#FFC482;
+  width:50px; height:50px;
+  animation: mover 5s infinite;
+    animation-timing-function:ease-in-out;
+  border:4px solid black;
+  position:relative;
+}
+body{
+  background-color:#FFF982;
+}</style>
+    <body>
+     <h1>CSS Animations</h1>
+      <h3>what are css animations?</h3>
+      <p>An animation lets an element gradully change from one style to another. You can change many css propities you want, as many times as you want. to use css animation you must first specify some keyframes for the animation.Key frames hold what styles the element will have at certin times. </p>
+     <h3>the @keyframes rule:</h3>
+      <p>1.when you specify css styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain</p>
+      <hr>
+      <p>2.To get an animation to work you must bind the animation to an element</p>
+<h3>specify the speed curve of the animation</h3>      
+      <p>The animation-timing-funtion propity specifies the speed curve of the animation. The animation-timing-funtion propity can have the following values</p>
+       <p>1.ease-Specifies an animation with slow start then fast then end slowly(this is defalt)</p>
+     <p>2.linear-Specifies an animation with the same speed from start to end</p>
+      <p>3.ease-in-Specifies an animation with with the same speed from start to end</p>
+      <p>4.ease-out-Specifies an animation with a slow start</p>
+      <p>5.ease-in-out-Specifies an animation with a slow start and end</p>
+      <p id="an1">linear</p>
+      <p id="an2">ease</p>
+      <p id="an3">ease-in</p>
+      <p id="an4">ease-out</p>
+      <p id="an5">ease-in-out</p>
+    </body>
+  </head>
+</html> </body>
+            <style></style>
+            <script></script>
+          </html>
+        
